@@ -5,7 +5,7 @@
 import pyodbc
 server = '<server>.database.windows.net'
 database = '<rox_bike>'
-username = '<admin>'
+username = '<sa>'
 password = '<admin>'   
 driver= '{ODBC Driver 17 for SQL Server}'
 
