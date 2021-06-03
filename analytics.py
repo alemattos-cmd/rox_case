@@ -16,6 +16,16 @@ with pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+da
         while row:
             print (str(row[0]) + " " + str(row[1]))
             row = cursor.fetchone()
+##    con = pymssql.connect(host = 'servidor',
+##                          user = 'usuario',
+##                         password = 'senha',
+##                          database = 'base de dados')
+## cursor.execute('INSERT INTO TABELA (CAMPO1, CAMPO2, CAMPO3) VALUES (?,?,?)', (valor1, valor2, valor3))
+## con.commit()
+## rs = cursor.fetchone() # busca uma linha ou;
+## rs = cursor.fetchall() # busca todas as linhas ou;
+## rs = cursor.dictfetchall() # busca todas as linhas,
+
 
 
 ## Análise de Dados
