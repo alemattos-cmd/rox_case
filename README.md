@@ -16,4 +16,4 @@ Acesse a plataforma BigQuery:
 Nota Importante:
 Neste momento o projeto foi concebido de modo estático devido ao não conhecimento de domínio da aplicação, no entanto o processo para automatzá-lo é bem simples, mostrando mais uma das vantagens da plataforma GCP. Primeiramente é necessário o cadastramento (via inserção de email) dos agentes que terão acesso aos buckets de ingestão; logo em seguida é possível configurar a periodicidade (diária, semanal, mensal) dos bacthes de migração; e por fim definir o acesso ao ambiente de BigQuery pela equipe de Análise de Dados por exemplo.
 
-Projeto BIKE: https://console.cloud.google.com/storage/browser?_ga=2.7127986.1866894488.1622729075-465037731.1622729075&_gac=1.218037860.1622806757.Cj0KCQjwnueFBhChARIsAPu3YkRnJ99r8O45XBNYeGeCCG2ufuFyJhpT8oDJNnahlyszt6E4y7bNYaUaAtb7EALw_wcB&project=rox-bike&prefix=
+Projeto BIKE: https://console.cloud.google.com/home/dashboard?folder=&organizationId=&project=rox-bike
