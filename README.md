@@ -17,3 +17,5 @@ Nota Importante:
 Neste momento o projeto foi concebido de modo estático devido ao não conhecimento de domínio da aplicação, no entanto o processo para automatzá-lo é bem simples, mostrando mais uma das vantagens da plataforma GCP. Primeiramente é necessário o cadastramento (via inserção de email) dos agentes que terão acesso aos buckets de ingestão; logo em seguida é possível configurar a periodicidade (diária, semanal, mensal) dos bacthes de migração; e por fim definir o acesso ao ambiente de BigQuery pela equipe de Análise de Dados por exemplo.
 
 Projeto BIKE: https://console.cloud.google.com/home/dashboard?folder=&organizationId=&project=rox-bike
+
+No ambiente de BigQuery foi criado um modelod de ML bem simples a título de exemplificação.
