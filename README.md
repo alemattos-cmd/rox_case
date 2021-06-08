@@ -1,13 +1,18 @@
 # rox_case
 Como solução para o case foi proposto uma abordagem baseada em GCP (Google Cloud Platform) com utilização do ambiente BigQuery para análise de dados.
 
-1° Passo: Carregamento dos daos em bucket do Cloud Storage
-2° Passo: etapa de pré-processamento efetuada em ambiente DataPrep
-3° Passo: carregamento de dados transformados em bucket do Cloud storage
-4° Passo: definição de esquema em BigQuery
-5° Passo: Criação de batch de transferência para ambiente BigQuery
-6° Passo: realização de consultas SQL para visualização
-7° Passo: criação de modelo de Machine Learning via BigQuery
+
+1° Passo: Etapa de pré-processamento efetuada via script python
+  Para usuários Windows é disponibilizado um executável ConvertData.exe (https://github.com/alemattos-cmd/rox_case/releases/tag/v1)
+  Para distribuições Linux basta executar o código ConvertData.ipynb via prompt command (https://github.com/alemattos-cmd/rox_case/blob/v1/ConvertData.ipynb)
+  
+  O script realiza a carga dos arquivos .csv deste repositório e realiza as transformações necessárias para a implantação do Data Warehousing em GCP
+  
+2° Passo: carregamento de dados transformados em bucket do Cloud storage
+3° Passo: definição de esquema em BigQuery
+4° Passo: Criação de batch de transferência para ambiente BigQuery
+5° Passo: realização de consultas SQL para visualização
+6° Passo: criação de modelo de Machine Learning via BigQuery
 
 Acesse a plataforma BigQuery:
   https://console.cloud.google.com/bigquery?project=rox-bike&ws=!1m0
