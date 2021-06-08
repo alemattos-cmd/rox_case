@@ -3,15 +3,21 @@ Como solução para o case foi proposto uma abordagem baseada em GCP (Google Clo
 
 
 1° Passo: Etapa de pré-processamento efetuada via script python
+
   Para usuários Windows é disponibilizado um executável ConvertData.exe (https://github.com/alemattos-cmd/rox_case/releases/tag/v1)
+  
   Para distribuições Linux basta executar o código ConvertData.ipynb via prompt command (https://github.com/alemattos-cmd/rox_case/blob/v1/ConvertData.ipynb)
   
   O script realiza a carga dos arquivos .csv deste repositório e realiza as transformações necessárias para a implantação do Data Warehousing em GCP
   
 2° Passo: carregamento de dados transformados em bucket do Cloud storage
+
 3° Passo: definição de esquema em BigQuery
+
 4° Passo: Criação de batch de transferência para ambiente BigQuery
+
 5° Passo: realização de consultas SQL para visualização
+
 6° Passo: criação de modelo de Machine Learning via BigQuery
 
 Acesse a plataforma BigQuery:
